@@ -32,7 +32,7 @@ import {crc32} from 'crc32';
 
    ```javascript
    import {lastName as surname} from './profile';
+   // `surname`是重命名后的新名字
    ```
-
    ​
 
