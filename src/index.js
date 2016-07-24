@@ -18,15 +18,28 @@ const IMAGE_DATA = [
   },
 ];
 
+// render(
+//   <Slider
+//     items={IMAGE_DATA}
+//     speed={1.2}
+//     delay={2.1}
+//     pause={true}
+//     autoplay={true}
+//     dots={true}
+//     arrows={true}
+//   />,
+//   document.getElementById('root')
+// );
+
 render(
   <Slider
     items={IMAGE_DATA}
-    speed={1.2}
-    delay={2.1}
-    pause={true}
-    autoplay={true}
-    dots={true}
-    arrows={true}
+    // speed={1.2}
+    // delay={2.1}
+    // pause={true}
+    // autoplay={true}
+    // dots={true}
+    // arrows={true}
   />,
   document.getElementById('root')
 );
