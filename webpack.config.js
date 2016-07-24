@@ -33,7 +33,10 @@ var config = {
     loaders: [
       {
         test: /(\.jsx|\.js)$/,
-        loader: 'babel?presets[]=es2015&presets[]=react',
+        loaders: [
+          'react-hot',
+          'babel-loader'
+        ],
         exclude: /node_modules/
       },
       {
