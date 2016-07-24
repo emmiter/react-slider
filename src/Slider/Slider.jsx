@@ -46,14 +46,16 @@ export default class Slider extends Component {
   }
 
   static defaultProps = {
-    speed: 1,
-    delay: 2,
+    speed: 5,
+    delay: 10,
     pause: true,
     autoplay: true,
     dots: true,
     arrows: true,
     items: []
   };
+
+  static autoPlayFlag = null;
 
   render() {
     let count = this.props.items.length;
@@ -93,4 +95,4 @@ export default class Slider extends Component {
 //   arrows: true,
 //   items: [],
 // }
-Slider.autoPlayFlag = null;
+// Slider.autoPlayFlag = null;

@@ -19882,19 +19882,20 @@
 	//   arrows: true,
 	//   items: [],
 	// }
+	// Slider.autoPlayFlag = null;
 	
 	
 	Slider.defaultProps = {
-	  speed: 1,
-	  delay: 2,
+	  speed: 5,
+	  delay: 10,
 	  pause: true,
 	  autoplay: true,
 	  dots: true,
 	  arrows: true,
 	  items: []
 	};
-	exports.default = Slider;
 	Slider.autoPlayFlag = null;
+	exports.default = Slider;
 	
 	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/apple/Sites/emmiter_github/react-slider/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Slider.jsx" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
